@@ -1,0 +1,17 @@
+.block{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    width: 750px;
+}
+
+.block_item{
+    border: 1px solid black;
+    width: 150px;
+}
+
+.table{
+    padding: 0 24px;
+    max-width: 80%;
+    margin: 0 auto;
+}
