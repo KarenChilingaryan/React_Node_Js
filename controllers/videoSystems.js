@@ -7,8 +7,6 @@ module.exports.getById = async (req, res, next) => {
   try {
       const task = await VideoSystems.findOne({
           _id: req.params.id,
-          // owner: res.locals.userId
-          //fixme
       });
       if (!task) throw errorConfig.taskNotFound;
       res.json(task.toObject());

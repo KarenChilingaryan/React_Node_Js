@@ -8,6 +8,4 @@ router.get('/:id', controller.getById); // get all videoSystems
 
 router.post('/', controller.addTask);
 
-// router.post('/task', controller.addTask); // get all videoSystems
-
 module.exports = router
